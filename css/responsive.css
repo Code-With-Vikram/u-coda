@@ -1,0 +1,196 @@
+@media screen and (max-width:1679px) {
+    #banner-main { overflow: hidden;}
+    .inner{display: none;}
+
+}
+
+@media screen and (max-width:1399px) {
+    .logo-col { width: 9%; padding: var(--gutter-space);}
+    .menu-col {width: 91%;padding: var(--gutter-space);}
+
+
+}
+
+@media screen and (max-width:1279px) {
+    .logo-col {width: 11%;padding: var(--gutter-space);}
+    .menu-col {width: 89%;padding: var(--gutter-space); }
+    .menu ul li a {font-size: 18px;}
+    .menu>ul {display: flex; }
+    .trusted-easy-content h2 {font-size: 47px; }
+
+}
+/* max-width:1165px */
+
+@media screen and (max-width:1165px) {
+    .logo-col {width: 12%;padding: var(--gutter-space);}
+    .menu-col { width: 88%; padding: var(--gutter-space);}
+    .menu {padding-left: 168px;}
+    .banner-content h1 {font-size: 27px;line-height: 55px;}
+    .banner-content p { font-size: 15px; }
+    .trusted-content-col{width: 100%; padding: 0 15px;}
+    .trusted-content-responer-col{width: 100%; padding: 0 15px;}
+    .trusted-content h2 {padding-bottom: 30px;text-align: center;font-size: 40px;line-height: 59px; }
+    .trusted-easy-content h2 {font-size: 39px;}
+    #courses {margin-top: 595px;}
+    .popular-box-col { width: 50%; padding: 0 15px;}
+
+}
+
+/* max-width:991px */
+
+@media screen and (max-width:991px) {
+    #header {margin-top: 0;}
+    .logo-col {width: 25%;padding: var(--gutter-space);}
+    .menu-col { width: 75%; padding: var(--gutter-space);}
+    .bar-btn {display: block;order: 2;}
+    .menu { padding-left: 296px;}
+    .menu ul { display: none; position: absolute; left: 0; width: 100%; height: auto; top: 77px; background-color: rgb(180, 215, 189); z-index: 11; border-bottom: 1px solid #ccc;}
+    .menu .bar-btn {display: block;}
+    .menu ul li { padding: 25px 0; border-bottom: 2px solid #292828;}
+    .menu ul li:nth-child(4) {border-bottom: none;}
+    .menu ul li a { padding: 15px; letter-spacing: 1px;}
+    .menu.nav-on .bar-btn::after {transform: rotate(45deg) translate(5px, 1px);transition: all 0.4s ease-in;}
+    .menu.nav-on .bar-btn::before {opacity: 0;}
+    .menu.nav-on .middle-line::after {transform: rotate(-45deg) translate(16px, -11px);transition: all 0.4s ease-in;}
+    .banner-content-col { width: 100%; padding: var(--gutter-space);}
+    .banner-img-col { width: 100%; padding: var(--gutter-space);}
+    .banner-content { margin-top: 80px;}
+    .banner-box { padding-top: 60px;}
+    .banner-content h1 { font-size: 62px; line-height: 80px; width: 69%;}
+    .banner-content p {font-size: 18px;font-weight: var(--semibold);color: #6C6C6A;line-height: 30px;padding-bottom: 50px;max-width: 80%;}
+    .banner-box{width: 80%;}
+    .banner-box::after {content: "";position: absolute;right: -11px;width: 611px;height: 611px; border-radius: 50%;border: 5px solid #BEEBF8;top: 196px;}
+    .trusted-detail-col {width: 100%;padding: var(--gutter-space);}
+    .trusted-easy-steps-col {width: 100%;padding: var(--gutter-space); }
+    .trusted-easy-content h2 {font-size: 40px;max-width: 53%;line-height: 53px;padding-top: 60px;}
+    #courses {margin-top: 110px; padding-bottom: 50px;}
+    .view-btn a {padding: 25.5px 31.3px;}
+ 
+    
+}
+
+/* max-width:839px */
+
+@media screen and (max-width:839px) {
+    .logo-col {width: 22%;padding: var(--gutter-space)}
+    .menu-col {width: 78%;padding: var(--gutter-space)}
+    .menu {padding-left: 267px}
+    .banner-content h1 {font-size: 62px;line-height: 80px;width: 76%}
+    .banner-content p {font-size: 18px;font-weight: var(--semibold);color: #6C6C6A;line-height: 30px;padding-bottom: 50px;max-width: 86%;}
+    .banner-img-col{display: none;}
+    .popular-box-col {width: 100%;padding: 0 15px}
+    .popular-box-main {margin-bottom: 35px;}
+    .student-about-us-col {width: 100%;padding: var(--gutter-space);}
+    .student-about-us-small-col {width: 100%;padding: var(--gutter-space);}
+    .student-about-us-box { margin-bottom: 50px;}
+    .student-small-box {margin-left: 0px; }
+
+}
+
+/* max-width:767px */
+
+@media screen and (max-width:767px) {
+    .logo-col {width: 22%;padding: var(--gutter-space);}
+    .menu-col {width: 78%;padding: var(--gutter-space);}
+    .bar-btn {display: block;order: 2;}
+    .menu {padding-left: 120px;}
+    .banner-content h1 {font-size: 45px;line-height: 65px;width: 95%}
+    .banner-content p {font-size: 18px;font-weight: var(--semibold);color: #6C6C6A;line-height: 30px;padding-bottom: 50px;width: 100%}
+    .student-content h2 {font-size: 50}
+    .trusted-content h2 {padding-bottom: 30px;text-align: center;font-size: 37px;line-height: 59px}
+    .popular-title h2 {font-size: 53px;}
+    
+    
+
+}
+
+/* max-width:575px */
+
+@media screen and (max-width:575px) {
+    .logo-col { width: 22%; padding: var(--gutter-space);}
+    .menu-col { width: 78%;padding: var(--gutter-space);}
+    .menu .login-btn.inner-btn {display: block;margin: 20px auto;border: 1px solid;width: 90%}
+    .trusted-inner-content{width: 208px;height: 243px;}
+    .trusted-inner-box-col {width: 50%;padding: 0 15px}
+    .trusted-easy-content {width: 100%;padding-top: 0px;}
+    .trusted-easy-content h2 {font-size: 40px;max-width: 63%;line-height: 53px}
+    .popular-title h2 {font-size: 40px;}
+    .popular-title {width: 100%;padding-top: 50px;padding-bottom: 30px}
+    .student-content h2 {font-size: 40px}
+    .free-trial-btn {width: 100%;display: flex;justify-content: center;gap: 30px;align-items: center;}
+    .free-trial-btn a{font-size: 15px; padding: 25px 35px;}
+    .sign-up {font-size: 15px;}
+    .footer-title h2 {font-size: 40px;}
+    .popular-img-detail>h2 {font-size: 32px;font-weight: var(--semibold);line-height: 40px}
+    .student-reviews p { font-size: 19px;}
+    #footer {padding-top: 49px;padding-bottom: 49px;margin-top: 50px}
+    .menu{padding-left: 10px;}
+    .inner{display: block !important;}
+    .menu{justify-content: end;gap: 25px;}
+    .free-trial{display: none;}
+    .login-btn a.free-trial {width: 96%;border-radius: 10px; margin-left: 7px; margin-bottom: 30px; background-color: rgb(19, 93, 19); text-align: center;}
+    .popular-box-main.mt { margin-top: 0px;}
+    #student-comments {width: 100%;padding-top: 50px; }
+    .trusted-inner-content p {font-size: 25px;}
+    .free-trial-btn .sign-up {padding: 21px 58px;font-size: 18px;}
+
+
+}
+
+/* max-width:479px */
+
+@media screen and (max-width:479px) {
+    .logo-col {width: 22%;padding: var(--gutter-space);}
+    .menu-col {width: 78%;padding: var(--gutter-space);}
+    .bar-btn {display: block;order: 2; }
+    #banner-main { padding-bottom: 38px; }
+    .menu .login-btn.inner-btn {display: block;margin: 20px auto;border: 1px solid;width: 90%}
+    .banner-content h1 {font-size: 32px;line-height: 55px;width: 95% ; padding-bottom: 15px;}
+    .banner-content-btn {width: 100%;display: flex;align-items: center;flex-wrap: wrap}
+    .banner-content-btn .banner-btn a{margin-bottom: 22px;font-size: 16px;padding: 16px 20px;}
+    .banner-content-btn .banner-video{margin-left: 19px;margin-top: -26px;}
+    .trusted-detail-box::after{display: none;}
+    .trusted-easy-content h2 {font-size: 30px;max-width: 66%;line-height: 53px}
+    .trusted-inner-content{width: 152px;height: 161px;}
+    .trusted-detail-box {width: 394px;height: 477px;border-radius: 20px;margin-left: -66px;padding-left: 50px;display: flex;margin-top: 101px;}
+    .course-icon a span {font-size: 15px;}
+    .electural-fee h2 {font-size: 22px;}
+    .popular-img-detail {width: 100%;padding-left: 20px;padding-right: 20px;padding-bottom: 23px;padding-top: 30px}
+    .popular-title h2 {font-size: 30px;}
+    .popular-img-detail>h2 {font-size: 23px;font-weight: var(--semibold);line-height: 40px;}
+    .footer-title h2 { font-size: 30px; line-height: 50px;}
+    .trusted-content h2 {font-size: 26px;line-height: 45px; text-align: left; max-width: 83%;}
+    .banner-content p{font-size: 16px; padding-bottom: 21px;}
+    .trusted-inner-content p {font-size: 18px;}
+    .trusted-items { padding-top: 50px; padding-bottom: 0px;}
+    .trusted-easy-content p{font-size: 16px;}
+    .student-content h2 {font-size: 27px;text-align: left;}
+    .student-reviews p {font-size: 14px;}
+    .student-reviews h2 {padding-top: 5px;font-size: 23px;line-height: 50px;}
+    .student-small-img p{font-size: 14px;}
+    .footer-title h2 {font-size: 20px;line-height: 48px;}
+    .banner-content-btn .banner-video>a {height: 55px;width: 55px;border-radius: 50%;background-color: #fff;display: flex;align-items: center;justify-content: center;}
+    .free-trial-btn a{font-size: 14px; padding: 20px  9px;}
+    .free-trial-btn .sign-up {padding: 18px 40px;font-size: 14px;}
+    .view-btn a {padding: 21.5px 21.3px;font-size: 16px;}
+
+
+}
+/* max-width:359px */
+
+@media screen and (max-width:359px) {
+    .logo-col {width: 22%;padding: var(--gutter-space);}
+    .menu-col {width: 78%;padding: var(--gutter-space);}
+    .bar-btn {display: block;order: 2; }
+    .login-btn {display: none; }
+    .menu { padding-left: 205px;}
+    .menu .login-btn.inner-btn {display: block;margin: 20px auto;border: 1px solid;width: 90%}
+    .trusted-easy-content h2 {font-size: 40px;max-width: 86%;line-height: 53px}
+    .trusted-detail-box {width: 394px;height: 477px;border-radius: 20px;margin-left: -66px;padding-left: 50px;display: flex;margin-top: 101px;}
+     #footer { padding-top: 49px;padding-bottom: 49px;margin-top: 50px;}
+    .popular-img-detail>h2 {font-size: 22px;font-weight: var(--semibold);line-height: 40px;}
+    .banner-content-btn .banner-video>a {height: 45px;width: 45px;border-radius: 50%;background-color: #fff;display: flex;align-items: center;justify-content: center; margin-top: -5px;}
+    .banner-content-btn .banner-btn a{margin-bottom: 22px;font-size: 16px;padding: 14px 13px;}
+
+
+}
